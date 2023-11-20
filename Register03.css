@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@100&family=Pattaya&family=Playpen+Sans&family=Roboto+Condensed:wght@300&family=Sriracha&family=Young+Serif&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Young Serif;
+}
+
+body {
+    background: black;
+}
+
+.main-container {
+    border: white 1px solid;
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    background: white;
+    border-radius: 15px;
+}
+
+.txt-signup {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-username {
+    width: 400px;
+    height: 45px;
+    padding-left: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.input-email {
+    width: 400px;
+    margin-top: 40px;
+    height: 45px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: black 1px solid;
+    cursor: pointer;
+    transform: 0.3s;
+}
+
+.input-passwd {
+    width: 400px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: black 1px solid;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.input-cfpasswd {
+    width: 400px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    border-bottom: black 1px solid;
+    outline: none;
+}
+
+.button-btn {
+    width: 300px;
+    height: 45px;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: 0.4s;
+    border: black 1px solid;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.button-btn:hover {
+    background-color: gainsboro;
+    border: gainsboro 1px solid;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        width: 425px;
+        transition: 0.3s;
+    }
+    .txt-signup {
+        font-size: 23px;
+    }
+    .input-username {
+        width: 330px;
+    }
+    .input-email {
+        width: 330px;
+    }
+    .input-passwd {
+        width: 330px;
+    }
+    .input-cfpasswd {
+        width: 330px;
+    }
+    .button-btn {
+        margin-left: 70px;
+    }
+}
